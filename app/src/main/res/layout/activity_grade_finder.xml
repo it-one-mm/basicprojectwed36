@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Mark:"
+        android:id="@+id/edt_mark"
+        android:padding="5dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/radiusbg"/>
+
+    <Button
+        android:onClick="buFindGrade"
+        android:layout_below="@id/edt_mark"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Find Grade"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:textAllCaps="false"
+        android:background="@drawable/btnbg"
+        android:textColor="@color/colorWhite"/>
+
+    <com.cunoraz.gifview.library.GifView
+        android:id="@+id/result_img"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:gif="@drawable/success"
+        android:layout_centerInParent="true"/>
+
+
+    <TextView
+        android:id="@+id/txt_grade_is"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="@font/ptserifregular"
+        android:text="Grade is:"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/result_img"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/txt_grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:fontFamily="@font/ptserifregular"
+        android:text="A"
+        android:textColor="@color/colorBlack"
+        android:layout_below="@id/result_img"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/txt_grade_is"/>
+
+
+
+
+
+</RelativeLayout>

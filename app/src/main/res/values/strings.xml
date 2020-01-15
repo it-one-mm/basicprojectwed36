@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bu_add">Add</string>
+    <string name="bu_sub">Substract</string>
+    <string name="bu_mult">Multiply</string>
+    <string name="bu_div">Divide</string>
+</resources>

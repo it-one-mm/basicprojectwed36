@@ -1,0 +1,2 @@
+include ':app', ':JavaLib', ':lib'
+rootProject.name='My Application'
